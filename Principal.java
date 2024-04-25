@@ -7,7 +7,7 @@ public class Principal {
 	public static void main(String[] args) {
 				
 				Carro carro = new Carro("B2204progphp","Fusca","Volkswagem", 1980, "Volkswagem", 2, false);
-				System.out.println("o " + carro + " é um carro");	 
+				System.out.println(carro);	 
 				carro.ligar();
 				carro.acelerar();
 				carro.drift();
